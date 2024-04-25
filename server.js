@@ -14,10 +14,6 @@ app.get("/ekansh", (res, req) => {
         "Message": "Hello Ekansh"
     })
 })
-app.get("/ansh", (res, req) => {
-    req.json({
-        "Message": "Hello Ansh"
-    })
-})
+
 
 
